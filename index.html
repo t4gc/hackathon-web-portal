@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/tailwind.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 <body class="relative">
   <nav id="new-navigation" class="absolute flex mx-auto py-5 w-11/12 mb-7" style="z-index: 1; left: 0; right: 0">
@@ -15,18 +16,6 @@
     <img src="assets/images/logo.png" alt="Green Cambodia logo" style="width: 4em; height: 4em; position: absolute;">
     <ul id="new-navigation-links" class="relative flex mt-2 ml-32 w-full space-x-10 text-heading-green text-xl">
       <li class="cursor-pointer active-navigation-button main-nav-color" data-init="home" data-localize="home_nav_link">Home</li>
-<!--      <li class="cursor-pointer" data-init="report">-->
-<!--        <a href="/report.html" data-localize="report_nav_link" class="main-nav-color">Report</a>-->
-<!--      </li>-->
-<!--      <li class="cursor-pointer" data-init="learn">-->
-<!--        <a href="/learn.html" data-localize="learn_nav_link" class="main-nav-color">Learn</a>-->
-<!--      </li>-->
-<!--      <li class="hidden cursor-pointer" data-init="marketplace">-->
-<!--        <a href="/marketplace.html" data-localize="marketplace_nav_link" class="main-nav-color">Marketplace</a>-->
-<!--      </li>-->
-<!--      <li class="cursor-pointer" data-init="about">-->
-<!--        <a href="/about.html" data-localize="about_nav_link" class="main-nav-color">About</a>-->
-<!--      </li>-->
     </ul>
   </div>
   </nav>
@@ -77,9 +66,12 @@
         </section>
       </div>
       </div>
+    </div>
   </div>
 
   <script src="assets/js/jquery-3.5.1.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="controllers/HomeController.js"></script>
 </body>
 </html>
